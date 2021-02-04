@@ -4,6 +4,12 @@
     --green: #49AA26;
     --light-green: #3dd705;
     --red: #e92929;
+
+    --black: rgb(41, 40, 40);
+    --gray: rgb(59, 59, 59);
+    --grayCard: rgb(39, 38, 38);
+    --purple: rgb(163, 30, 163);
+    --light-purple: rgb(206, 24, 206);
 }
 
 * {
@@ -115,6 +121,10 @@ header {
     font-weight: 100;
 }
 
+#logoClicavel {
+    cursor: pointer;
+}
+
 /* Header */
 /* Balance */
 
@@ -217,6 +227,10 @@ td.expense {
     color: #e92929;
 }
 
+td.pointer {
+    cursor: pointer;
+}
+
 /* Table */
 /* Modal */
 .modal-overlay {
@@ -315,3 +329,32 @@ footer {
 
 
 /* Responsividade */
+/* Dark-Mode */
+
+body.mode {
+    background: var(--gray);
+}
+
+header.mode {
+    background: var(--black);
+}
+
+
+.card.mode {
+    background: var(--grayCard);
+    color: white;
+}
+
+.card.total.mode {
+    background: var(--purple);
+}
+
+a.mode {
+    color: var(--purple);
+}
+
+a:hover.mode {
+    color: var(--light-purple);
+}
+
+/* Dark-Mode */
