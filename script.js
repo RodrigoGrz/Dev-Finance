@@ -7,12 +7,10 @@ const Modal = {
 
 const DarkMode = {
     changeColor() {
-        let elementoBody = document.querySelector('.dark').classList.toggle('mode')
-        let elementoHeader = document.querySelector('.dark1').classList.toggle('mode')
-        let elementoA = document.querySelector('.dark2').classList.toggle('mode')
-        let elementoCardtotal = document.querySelector('.dark3').classList.toggle('mode')
-        let elementoCard1 = document.querySelector('.dark4').classList.toggle('mode')
-        let elementoCard2 = document.querySelector('.dark5').classList.toggle('mode')
+        const elements = document.querySelectorAll('.dark')
+        elements.forEach(event => {
+            event.classList.toggle('mode')
+        })
     }
 }
 

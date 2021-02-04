@@ -357,4 +357,8 @@ a:hover.mode {
     color: var(--light-purple);
 }
 
+footer.mode {
+    color: var(--purple);
+}
+
 /* Dark-Mode */
