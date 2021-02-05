@@ -63,9 +63,9 @@
     </main>
 
     <div class="modal-overlay">
-        <div class="modal">
+        <div class="modal dark">
             <div id="form">
-                <h2>Nova Transação</h2>
+                <h2 class="dark">Nova Transação</h2>
                 <form action="" onsubmit="Form.submit(event)">
                     <div class="input-group">
                         <label class="sr-only" for="description">Descrição</label>
@@ -85,7 +85,7 @@
                         name="amount" 
                         placeholder="0,00">
 
-                        <small class="help">
+                        <small class="help dark">
                             Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais
                         </small>
                     </div>
@@ -101,7 +101,7 @@
 
                     <div class="input-group actions">
                         <a href="#" onclick="Modal.open()" class="button cancel">Cancelar</a>
-                        <button>Salvar</button>
+                        <button class="dark">Salvar</button>
                     </div>
                 </form>
             </div>

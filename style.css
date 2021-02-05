@@ -361,4 +361,22 @@ footer.mode {
     color: var(--purple);
 }
 
+div.mode {
+    background: var(--black);
+}
+
+div > h2.mode,
+small.help.mode {
+    color: white;
+}
+
+div > button.mode {
+    background: var(--light-purple);
+    color: white;
+}
+
+div > button.mode:hover {
+    background: var(--purple);
+}
+
 /* Dark-Mode */
