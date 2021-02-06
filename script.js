@@ -2,6 +2,12 @@ const Modal = {
     open() {
         document.querySelector('.modal-overlay').classList.toggle('active')
         document.querySelector('.f').classList.toggle('footer')
+        document.addEventListener("keydown", event => {
+            const ifEscKey = event.key === 'Escape'
+            if(ifEscKey) {
+                Modal.open()
+            }
+        })
     }
 }
 
