@@ -23,11 +23,11 @@
  <img src="https://i.ibb.co/526H6d8/novatransa-o.png" >
 
 <h2>Tecnologias</h2>
-<p>Tecnologias que foram usadas no projeto:</p>
-<a href="https://code.visualstudio.com/" rel"nofollow">VSCode</a>
-<p>JavaScript</p>
-<p>CSS</p>
-<p>HTML</p>
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
 
 <h2>Contribuição</h2>
 <p>Podem ficar a vontade para melhorarem, só foi feito a parte do front-end.</p>
